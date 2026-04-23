@@ -1,0 +1,46 @@
+{
+    "projects": {
+        "Runner": {
+            "additionalDependencies": [],
+            "additionalIncludeDirectories": [
+                "$(SolutionDir)../vendor/GCE/include/"
+            ],
+            "additionalLibraryDirectories": [],
+            "dependencies": [
+                "lib"
+            ],
+            "dependents": [],
+            "guid": "6E6E7AA1-1F27-3966-69A2-58B956066095",
+            "lib": false,
+            "pch": true,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": false
+        },
+        "lib": {
+            "additionalDependencies": [
+                "GCE.lib"
+            ],
+            "additionalIncludeDirectories": [
+                "$(SolutionDir)../vendor/GCE/include/"
+            ],
+            "additionalLibraryDirectories": [
+                "$(SolutionDir)../vendor/GCE/lib/"
+            ],
+            "dependencies": [],
+            "dependents": [
+                "Runner"
+            ],
+            "guid": "7788624F-51F0-4B1D-3F97-599B1EE667EF",
+            "lib": true,
+            "pch": false,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": false
+        }
+    },
+    "solution_guid": "6DBA7566-2126-078C-419C-0D163955557D",
+    "solution_name": "Runner",
+    "startup_project": "Runner",
+    "version": "1.17.4"
+}
